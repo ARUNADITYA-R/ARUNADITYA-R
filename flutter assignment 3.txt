@@ -1,0 +1,18 @@
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	   Scanner sc =  new Scanner(System.in);
+	   
+	   String a;
+	   System.out.println("enter the name");
+	   a=sc.next();
+	   int b,c;
+	   System.out.println("enter the age");
+	   b=sc.nextInt();
+	   c=100-b;
+	   System.out.println("The remaining years is "+c);
+	   
+
+	}
+}
